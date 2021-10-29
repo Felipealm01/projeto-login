@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="estilos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" id="font">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <script src="https://kit.fontawesome.com/d987aa355c.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Login</h1>
+    </header>
+        <main>
+                <form>
+                    <input type="email" id="email" placeholder="exemplo@gmail.com">
+
+                    <div class="password-container">
+                        <input type="password" id="password" placeholder="********">
+                        <i class="fas fa-eye" id="eye" onclick="showPassword()"></i>
+                        <i class="fas fa-eye-slash" id="eye-slash" onclick="showPassword()"></i>
+                    </div>
+                    <section class="password-info">
+                        <div>
+                            <input type="checkbox">
+                            <span>Lembrar senha?</span>
+                        </div>
+                        <a href="#">Esqueceu sua senha?</a>
+                    </section>
+                
+                    
+                    <button id="login">Login</button>
+
+                    <section class="links-container">
+
+                        <p>Ou entre com:</p>
+
+                        <a href="#"><i class="fab fa-facebook-square facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square twitter"></i></a>
+                    </section>
+                    
+
+                    <hr>
+
+                    <p id="cadastro">Ainda não tem um uma conta? <a href="#">Cadastre-se</a></p>
+                </form>
+        </main>    
+    <script src="index.js"></script>
+</body>
+</html>
